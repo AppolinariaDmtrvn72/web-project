@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h2>Погода здесь</h2>
-        <button>Обновить геолокацию</button>
+        <button class="update-btn">Обновить геолокацию</button>
       </div>
       <div class="weather-by-geolocation">
         <h3>Saint Petersburg</h3>
-        <img src="./image/weather-logo.jpg" alt="">
-        <span>8°C</span>
+        <div class="name">
+          <img src="./image/weather-logo-M.png" alt="">
+          <span class="temp-big">8°C</span>
+        </div>
       </div>
       <div class="info-by-geolocation">
         <ul>
@@ -30,14 +35,18 @@
       </div>
       <div class="favorites">
         <h2>Избранное</h2>
-        <input type="text" />
-        <button>+</button>
+        <div class="form">
+          <input type="text" />
+          <button class="btn-circle">+</button>
+        </div>
     </div>
     <div class="favourite-city">
-      <h4>Moscow</h4>
-      <span class="temp"></span>
-      <img src="./image/weather-logo.jpg" alt="">
-      <button class="btn-circle">X</button>
+      <div class="weather-by-city">
+        <h4>Moscow</h4>
+        <span class="temp">8°C</span>
+        <img src="./image/weather-logo-S.png" alt="">
+        <button class="btn-circle">X</button>
+      </div>
       <ul>
         <li>Ветер<span class="info-city">
           Moderate breeze, 6.0m/s, North-northwest</span
@@ -49,10 +58,12 @@
       </ul>
     </div>
     <div class="favourite-city">
+      <div class="weather-by-city">
       <h4>Moscow</h4>
-      <span class="temp"></span>
-      <img src="./image/weather-logo.jpg" alt="">
+      <span class="temp">8°C</span>
+      <img src="./image/weather-logo-S.png" alt="">
       <button class="btn-circle">X</button>
+      </div>
       <ul>
         <li>Ветер<span class="info-city">
           Moderate breeze, 6.0m/s, North-northwest</span
@@ -63,6 +74,73 @@
         <li>Координаты<span class="info-city">[59.88, 30.42]</span></li>
       </ul>
     </div>
+    <div class="favourite-city">
+      <div class="weather-by-city">
+      <h4>Moscow</h4>
+      <span class="temp">8°C</span>
+      <img src="./image/weather-logo-S.png" alt="">
+      <button class="btn-circle">X</button>
+      </div>
+      <ul>
+        <li>Ветер<span class="info-city">
+          Moderate breeze, 6.0m/s, North-northwest</span
+        ></li>
+        <li>Облачность<span class="info-city">Broken clouds</span></li>
+        <li>Давление<span class="info-city">1013 hpa</span></li>
+        <li>Влажность<span class="info-city">52 %</span></li>
+        <li>Координаты<span class="info-city">[59.88, 30.42]</span></li>
+      </ul>
+    </div>
+    <div class="favourite-city">
+      <div class="weather-by-city">
+      <h4>Moscow</h4>
+      <span class="temp">8°C</span>
+      <img src="./image/weather-logo-S.png" alt="">
+      <button class="btn-circle">X</button>
+      </div>
+      <ul>
+        <li>Ветер<span class="info-city">
+          Moderate breeze, 6.0m/s, North-northwest</span
+        ></li>
+        <li>Облачность<span class="info-city">Broken clouds</span></li>
+        <li>Давление<span class="info-city">1013 hpa</span></li>
+        <li>Влажность<span class="info-city">52 %</span></li>
+        <li>Координаты<span class="info-city">[59.88, 30.42]</span></li>
+      </ul>
+    </div>
+    <div class="favourite-city">
+      <div class="weather-by-city">
+      <h4>Moscow</h4>
+      <span class="temp">8°C</span>
+      <img src="./image/weather-logo-S.png" alt="">
+      <button class="btn-circle">X</button>
+      </div>
+      <ul>
+        <li>Ветер<span class="info-city">
+          Moderate breeze, 6.0m/s, North-northwest</span
+        ></li>
+        <li>Облачность<span class="info-city">Broken clouds</span></li>
+        <li>Давление<span class="info-city">1013 hpa</span></li>
+        <li>Влажность<span class="info-city">52 %</span></li>
+        <li>Координаты<span class="info-city">[59.88, 30.42]</span></li>
+      </ul>
+    </div>
+    <div class="favourite-city">
+      <div class="weather-by-city">
+      <h4>Moscow</h4>
+      <span class="temp">8°C</span>
+      <img src="./image/weather-logo-S.png" alt="">
+      <button class="btn-circle">X</button>
+      </div>
+      <ul>
+        <li>Ветер<span class="info-city">
+          Moderate breeze, 6.0m/s, North-northwest</span
+        ></li>
+        <li>Облачность<span class="info-city">Broken clouds</span></li>
+        <li>Давление<span class="info-city">1013 hpa</span></li>
+        <li>Влажность<span class="info-city">52 %</span></li>
+        <li>Координаты<span class="info-city">[59.88, 30.42]</span></li>
+      </ul>
     </div>
   </body>
 </html>
